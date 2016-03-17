@@ -1,0 +1,22 @@
+{
+  "name": "mini-birds",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to solidify your understanding of the MongoDB API.  By the end of the project, you should know how to perform CRUD operations in MongoDB and view your data (via command line or a GUI).",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindacmercado/mini-birds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindacmercado/mini-birds/issues"
+  },
+  "homepage": "https://github.com/lindacmercado/mini-birds#readme"
+}
