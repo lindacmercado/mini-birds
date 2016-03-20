@@ -1,5 +1,5 @@
 // This is dummy data you can use for your app.
-
+{
     "birds": [{
         "name": "red breasted merganser",
         "order": "Anseriformes",
@@ -31,7 +31,7 @@
         "status": "near threatened"
     }]
 }
-
+{
 "sightings":[{
 			"bird": {
         "name": "greater sage grouse",

@@ -1,13 +1,19 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-  var mongoJS = require('mongoJS');
+var mongoJS = require('mongoJS');
+
 var app = express();
 var db = mongoJS('birds', ['sightings']);
 var port = 3000;
 
 app.use(bodyParser.json());
 app.use(cors());
+
+//Test
+app.get('/api/test', function(req, res) {
+  res.send("The server is working");
+});
 
 //Routes
 app.post('/api/sightings', function(req, res, next) {
